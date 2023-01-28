@@ -106,3 +106,47 @@ julien@ubuntu:~/monty$
 	- an error occured
 - If you can’t malloc anymore, print the error message `Error: malloc failed`, followed by a new line, and exit with status `EXIT_FAILURE`.
 - You have to use `malloc` and `free` and are not allowed to use any other function from `man malloc` (realloc, calloc, …)
+
+## Tasks
+### 0. push, pall
+- `pall.c` - The opcode `pall` prints all the values on the stack, starting from the top of the stack.
+- `push.c` - The opcode `push` pushes an element to the stack.
+### 1. pint
+- `pint.c` - prints the value at the top of the stack, followed by a new line.
+### 2. pop
+- `pop.c` - removes the top element of the stack.
+### 3. swap
+- `swap.c` - swaps the top two elements of the stack.
+### 4. add
+- `add.c` - adds the top two elements of the stack.
+### 5. nop
+- `nop.c` - doesn’t do anything.
+### 6. sub
+- `sub.c` - subtracts the top element of the stack from the second top element of the stack.
+### 7. div
+- `div.c` - divides the second top element of the stack by the top element of the stack.
+### 8. mul
+- `mul.c` - multiplies the second top element of the stack with the top element of the stack.
+### 9. mod
+- `mod.c` - computes the rest of the division of the second top element of the stack by the top element of the stack.
+### 10. comments
+- When the first non-space character of a line is `#`, treat this line as a comment (don’t do anything).
+### 11. pchar
+- `pchar.c` - prints the char at the top of the stack, followed by a new line.
+### 12. pstr
+- `pstr.c` - prints the string starting at the top of the stack, followed by a new line.
+### 13. rotl
+- `rotl.c` - rotates the stack to the top.
+### 14. rotr
+- `rotr.c` - rotates the stack to the bottom.
+### 15. stack, queue
+- `stack.c` - sets the format of the data to a stack (LIFO). This is the default behavior of the program.
+- `queue.c` - sets the format of the data to a queue (FIFO).
+### 16. Brainf*ck
+- `bf` - a Brainf*ck script that prints `School`, followed by a new line.
+### 17. Add two digits
+- `1001-add.bf` - Adds two digits given by the user.
+### 18. Multiplication
+- `1002-mul.bf` - Multiplies two digits given by the user.
+### 19. Multiplication level up
+- `1003-mul.bf` - Read the two digits from stdin, multiply them, and print the result, followed by a new line.
